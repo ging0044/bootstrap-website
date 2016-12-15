@@ -1,0 +1,90 @@
+/* Colors:
+almost-black: #332700
+almost-white: #FFF9EF
+brownish-green: #D1C451
+yellowish-green: #787F2C
+green: #8FDE4C
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Gentium+Basic|Raleway');
+
+html, #body {
+    background-color: #FFF9EF;
+}
+#body {
+    padding-bottom: 65px;
+}
+#body *:not(.social) {
+    font-family: Raleway, "Trebuchet MS", Helvetica, sans-serif;
+    color: #332700;
+}
+#body .serif {
+    font-family: 'Gentium Basic', Georgia, 'Times New Roman', serif;
+}
+#body #navbar .custom {
+    color: #FFF9EF;
+}
+#body #navbar .navbar-brand {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+#body #navbar .navbar-brand:hover {
+    background-color: hsla(0, 0%, 0%, 0.3);
+    box-shadow: -1px -1px 3px #332700;
+    text-shadow: 1px 1px 3px #332700;
+}
+#body #navbar .navbar-brand:active {
+    color: hsla(0, 0%, 85%, 1.0);
+    text-shadow: none;
+}
+.custom-bg {
+    background: #787F2C;
+}
+.border1 div {
+    border-right: 1px solid hsla(54, 61%, 30%, 0.1);
+}
+.border1 div:last-child {
+    border: none;
+}
+.btn-custom {
+    background-color: #8FDE4C;
+}
+.btn-custom:hover {
+	background-color: hsl(93, 66%, 70%);
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Gentium Basic', serif;
+}
+#body footer.navbar .navbar-brand {
+    color: #FFF9EF;
+    font-size: 1rem;
+}
+.jumbotron {
+    background-color: hsla(54, 61%, 30%, 0.1);
+}
+#body .social {
+    padding-right: 0.5rem;
+    position: relative;
+    top: 5px;
+    font-size: 1.1rem;
+    color: #FFF9EF;
+}
+#body .social:hover {
+    color: hsla(38, 6%, 85%, 0.9);
+}
+#body [class*='col-']{
+    padding-top: 15px;
+}
+#body .active {
+    text-shadow: 1px 1px 3px #332700;
+}
+#body #navbar .nav-link.custom:hover {
+    color: hsl(93, 66%, 85%);
+}
+#contact {
+    padding-top: 15px;
+}
+#form {
+    margin-top: 15px;
+    background-color: hsla(54, 61%, 30%, 0.1);
+}
